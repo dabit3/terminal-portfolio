@@ -1,4 +1,4 @@
-# [WebShell | Terminal Portfolio Website](https://www.nasan.dev/)
+# [WebShell | Terminal Portfolio Website](https://terminal.nader.codes/)
 
 <div align="center">
   <img alt="banner" src="https://raw.githubusercontent.com/nasan016/webshell/main/res/banner.png">
