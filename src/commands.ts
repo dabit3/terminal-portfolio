@@ -67,6 +67,10 @@ const helpObj = {
     [
       "'clear'",
       "Clear the terminal."
+    ],
+    [
+      "'home'",
+      "Go back to nader.codes."
     ]
   ],
 }

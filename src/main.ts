@@ -221,6 +221,12 @@ function commandHandler(input : string) {
         window.open(REPO_LINK, '_blank');
       }, 500);
       break;
+    case 'home':
+      writeLines(["Redirecting to nader.codes...", "<br>"]);
+      setTimeout(() => {
+        window.open('https://nader.codes');
+      }, 500);
+      break;
     case 'rm -rf':
       if (bareMode) {
         writeLines(["don't try again.", "<br>"])
