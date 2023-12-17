@@ -37,6 +37,36 @@ const whoamiObj = {
       "I am the thread of self-inquiry,",
       "weaving through the eternal question - "
     ],
+    [
+      "In the tapestry of time,",
+      "I weave threads of thought,",
+      "exploring the intricate dance of destiny - ",
+    ],
+    [
+      "Amidst the ocean of stars,",
+      "I sail the vessel of my soul,",
+      "charting courses through celestial dreams - "
+    ],
+    [
+      "Beneath the veil of reality,",
+      "I peer into the abyss of the unknown,",
+      "seeking truths in the shadows of mystery - "
+    ],
+    [
+      "In the labyrinth of consciousness,",
+      "I wander with purpose,",
+      "deciphering the enigma of my own being - "
+    ],
+    [
+      "As a composer of silence,",
+      "I orchestrate the symphony of my thoughts,",
+      "playing the music of the inner self - "
+    ],
+    [
+      "In the garden of the universe,",
+      "I bloom with curiosity,",
+      "nurturing seeds of wisdom in the soil of experience - "
+    ]
   ],
 }
 
