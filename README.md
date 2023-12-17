@@ -2,9 +2,7 @@
 
 > Forked from [https://github.com/nasan016/webshell](https://github.com/nasan016/webshell)
 
-<div align="center">
-  <img alt="banner" src="https://raw.githubusercontent.com/nasan016/webshell/main/res/banner.png">
-</div>
+![terminal.nader.codes](terminal.png)
 
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
