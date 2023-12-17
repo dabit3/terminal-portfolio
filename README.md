@@ -25,33 +25,35 @@ How did we get here?
 
 Most of the configuration is done in the `config.json` file.
 
+> Generate ascii [here](https://patorjk.com/software/taag/). ANSI Shadow is the current font family.
+
 ```json
 {
   "ascii": [
-    "██████╗ ██╗   ██╗ ██████╗",
-    "██╔══██╗██║   ██║██╔════╝",
-    "██║  ██║██║   ██║██║  ███╗",
-    "██║  ██║██║   ██║██║   ██║",
-    "██████╔╝╚██████╔╝╚██████╔╝",
-    "╚═════╝  ╚═════╝  ╚═════╝",
+    "███╗   ██╗ █████╗ ██████╗ ███████╗██████╗ ",
+    "████╗  ██║██╔══██╗██╔══██╗██╔════╝██╔══██╗",
+    "██╔██╗ ██║███████║██║  ██║█████╗  ██████╔╝",
+    "██║╚██╗██║██╔══██║██║  ██║██╔══╝  ██╔══██╗",
+    "██║ ╚████║██║  ██║██████╔╝███████╗██║  ██║",
+    "╚═╝  ╚═══╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝ "
   ],
-  "repoLink": "https://github.com/nasan016/webshell",
+  "repoLink": "https://github.com/dabit3/terminal-portfolio",
   "social": {
-    "email": "dug@pixar.com",
-    "github": "dugfromup",
-    "linkedin": "dugthedog"
+    "email": "dabit3@gmail.com",
+    "github": "dabit3",
+    "linkedin": "naderdabit"
   },
-  "aboutGreeting": "My name is Dug. I have just met you.",
+  "aboutGreeting": "Hi I'm Nader. I'm a full stack product engineer and developer educator.",
   "projects": [
     [
-      "Project Name",
-      "Project Description",
-      "Project Link"
+      "React Native AI",
+      "Full stack framework for building cross-platform mobile AI apps.",
+      "https://github.com/dabit3/react-native-ai"
     ],
     [
-      "Another Project Name",
-      "Another Project Description",
-      "Another Project Link"
+      "React Native Elements",
+      "Cross-Platform React Native UI Toolkit.",
+      "https://github.com/react-native-elements/react-native-elements"
     ]
   ]
 }

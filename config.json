@@ -27,7 +27,7 @@
     ],
     [
       "Pinecone Semantic Search",
-      "Embeds text files into vectors, stores them on Pinecone, and enables semantic search using GPT3 and Langchain in a Next.js UI.",
+      "Embeds files into vectors, stores on Pinecone, enables semantic search via GPT & Langchain w/Next.js.",
       "https://github.com/dabit3/semantic-search-nextjs-pinecone-langchain-chatgpt"
     ],
     [
