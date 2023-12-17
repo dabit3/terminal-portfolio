@@ -1,29 +1,34 @@
 {
   "ascii": [
-    "███╗   ██╗ █████╗ ███████╗ █████╗ ███╗   ██╗",
-    "████╗  ██║██╔══██╗██╔════╝██╔══██╗████╗  ██║",
-    "██╔██╗ ██║███████║███████╗███████║██╔██╗ ██║",
-    "██║╚██╗██║██╔══██║╚════██║██╔══██║██║╚██╗██║",
-    "██║ ╚████║██║  ██║███████║██║  ██║██║ ╚████║",
-    "╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝"
+    "███╗   ██╗ █████╗ ██████╗ ███████╗██████╗ ",
+    "████╗  ██║██╔══██╗██╔══██╗██╔════╝██╔══██╗",
+    "██╔██╗ ██║███████║██║  ██║█████╗  ██████╔╝",
+    "██║╚██╗██║██╔══██║██║  ██║██╔══╝  ██╔══██╗",
+    "██║ ╚████║██║  ██║██████╔╝███████╗██║  ██║",
+    "╚═╝  ╚═══╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═"
   ],
-  "repoLink": "https://github.com/nasan016/webshell",
+  "repoLink": "https://github.com/dabit3/terminal-portfolio",
   "social": {
-    "email": "nlm8841@nyu.edu",
-    "github": "nasan016",
-    "linkedin": "nathanielmacapinlac"
+    "email": "dabit3@gmail.com",
+    "github": "dabit3",
+    "linkedin": "naderdabit"
   },
-  "aboutGreeting": "Hi I'm Nathan. I'm a student at NYU Tandon.",
+  "aboutGreeting": "Hi I'm Nader. I'm a full stack product engineer and educator.",
   "projects": [
     [
-      "GofeR",
-      "Vue.js reactivity in Go.",
-      "https://github.com/nasan016/gofer"
+      "React Native AI",
+      "Full stack framework for building cross-platform mobile AI apps.",
+      "https://github.com/dabit3/react-native-ai"
     ],
     [
-      "WebShell",
-      "Terminal styled website.",
-      "https://github.com/nasan016/webshell"
+      "React Native Elements",
+      "Cross-Platform React Native UI Toolkit.",
+      "https://github.com/react-native-elements/react-native-elements"
+    ],
+    [
+      "Pinecone Semantic Search Boilerplate",
+      "CEmbeds text files into vectors, stores them on Pinecone, and enables semantic search using GPT3 and Langchain in a Next.js UI.",
+      "https://github.com/dabit3/semantic-search-nextjs-pinecone-langchain-chatgpt"
     ]
   ]
 }
