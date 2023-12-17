@@ -29,6 +29,16 @@
       "Pinecone Semantic Search",
       "Embeds text files into vectors, stores them on Pinecone, and enables semantic search using GPT3 and Langchain in a Next.js UI.",
       "https://github.com/dabit3/semantic-search-nextjs-pinecone-langchain-chatgpt"
+    ],
+    [
+      "Lens Widgets",
+      "Integration widgets for Lens Protocol",
+      "https://github.com/lens-protocol/lens-widgets"
+    ],
+    [
+      "All",
+      "View all of the projects I'm working on.",
+      "https://github.com/dabit3"
     ]
   ]
 }
