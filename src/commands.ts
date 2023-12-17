@@ -83,7 +83,7 @@ const createProject = () : string[] => {
     let link = `<a href="${ele[2]}" target="_blank">${ele[0]}</a>`
     string += SPACE.repeat(2);
     string += link;
-    string += SPACE.repeat(17 - ele[0].length);
+    string += SPACE.repeat(30 - ele[0].length);
     string += ele[1];
     projects.push(string);
     string = '';
@@ -170,21 +170,21 @@ const createAbout = () : string[] => {
   about.push("<br>");
   string += SPACE.repeat(2);
   string += email;
-  string += SPACE.repeat(17 - EMAIL.length);
+  string += SPACE.repeat(30 - EMAIL.length);
   string += `<a target='_blank' href='mailto:${command.social.email}'>${command.social.email}</a>`;
   about.push(string);
 
   string = '';
   string += SPACE.repeat(2);
   string += github;
-  string += SPACE.repeat(17 - GITHUB.length);
+  string += SPACE.repeat(30 - GITHUB.length);
   string += `<a target='_blank' href='https://github.com/${command.social.github}'>github/${command.social.github}</a>`;
   about.push(string);
 
   string = '';
   string += SPACE.repeat(2);
   string += linkedin;
-  string += SPACE.repeat(17 - LINKEDIN.length);  
+  string += SPACE.repeat(30 - LINKEDIN.length);  
   string += `<a target='_blank' href='https://www.linkedin.com/in/${command.social.linkedin}'>linkedin/${command.social.linkedin}</a>`;
   about.push(string);
 
@@ -203,7 +203,7 @@ const createHelp = () : string[] => {
     string += "<span class='command'>";
     string += ele[0];
     string += "</span>";
-    string += SPACE.repeat(17 - ele[0].length);
+    string += SPACE.repeat(30 - ele[0].length);
     string += ele[1];
     help.push(string);
   })

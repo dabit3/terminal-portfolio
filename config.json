@@ -26,8 +26,8 @@
       "https://github.com/react-native-elements/react-native-elements"
     ],
     [
-      "Pinecone Semantic Search Boilerplate",
-      "CEmbeds text files into vectors, stores them on Pinecone, and enables semantic search using GPT3 and Langchain in a Next.js UI.",
+      "Pinecone Semantic Search",
+      "Embeds text files into vectors, stores them on Pinecone, and enables semantic search using GPT3 and Langchain in a Next.js UI.",
       "https://github.com/dabit3/semantic-search-nextjs-pinecone-langchain-chatgpt"
     ]
   ]
