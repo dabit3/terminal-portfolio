@@ -193,10 +193,12 @@ const createAbout = () : string[] => {
   const EMAIL = "Email";
   const GITHUB = "Github";
   const LINKEDIN = "Linkedin";
+  const SUBSTACK = "Substack";
   
   const email = `<i class='fa-solid fa-envelope'></i> ${EMAIL}`;   
   const github = `<i class='fa-brands fa-github'></i> ${GITHUB}`;
   const linkedin = `<i class='fa-brands fa-linkedin'></i> ${LINKEDIN}`;
+  const substack = `<i class='fa-solid fa-bookmark'></i> ${SUBSTACK}`;
   let string = "";
 
   about.push("<br>");
@@ -220,6 +222,13 @@ const createAbout = () : string[] => {
   string += linkedin;
   string += SPACE.repeat(30 - LINKEDIN.length);  
   string += `<a target='_blank' href='https://www.linkedin.com/in/${command.social.linkedin}'>linkedin/${command.social.linkedin}</a>`;
+  about.push(string);
+
+  string = '';
+  string += SPACE.repeat(2);
+  string += substack;
+  string += SPACE.repeat(30 - SUBSTACK.length);  
+  string += `<a target='_blank' href='https://substack.com/@${command.social.substack}'>substack/${command.social.substack}</a>`;
   about.push(string);
 
   about.push("<br>");
