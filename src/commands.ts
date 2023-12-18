@@ -198,8 +198,8 @@ const createAbout = () : string[] => {
   
   const email = `<i class='fa-solid fa-envelope'></i> ${EMAIL}`;   
   const github = `<i class='fa-brands fa-github'></i> ${GITHUB}`;
-  const linkedin = `<i style="margin-left:2px;margin-right:-2px;" class='fa-brands fa-linkedin'></i> ${LINKEDIN}`;
-  const substack = `<i style="margin-left: 2px; margin-right:1px;"  class='fa-solid fa-bookmark'></i> ${SUBSTACK}`;
+  const linkedin = `<i style="margin-left:1px;margin-right:-1px;" class='fa-brands fa-linkedin'></i> ${LINKEDIN}`;
+  const substack = `<i style="margin-left: 1px; margin-right:2px;"  class='fa-solid fa-bookmark'></i> ${SUBSTACK}`;
   const youtube = `<i style="margin-right:-2px;" class='fa-brands fa-youtube'></i> ${YOUTUBE}`;
   let string = "";
 
