@@ -194,11 +194,13 @@ const createAbout = () : string[] => {
   const GITHUB = "Github";
   const LINKEDIN = "Linkedin";
   const SUBSTACK = "Substack";
+  const YOUTUBE = 'Youtube';
   
   const email = `<i class='fa-solid fa-envelope'></i> ${EMAIL}`;   
   const github = `<i class='fa-brands fa-github'></i> ${GITHUB}`;
-  const linkedin = `<i class='fa-brands fa-linkedin'></i> ${LINKEDIN}`;
-  const substack = `<i class='fa-solid fa-bookmark'></i> ${SUBSTACK}`;
+  const linkedin = `<i style="margin-left:2px;margin-right:-2px;" class='fa-brands fa-linkedin'></i> ${LINKEDIN}`;
+  const substack = `<i style="margin-left: 2px; margin-right:1px;"  class='fa-solid fa-bookmark'></i> ${SUBSTACK}`;
+  const youtube = `<i style="margin-right:-2px;" class='fa-brands fa-youtube'></i> ${YOUTUBE}`;
   let string = "";
 
   about.push("<br>");
@@ -219,16 +221,23 @@ const createAbout = () : string[] => {
 
   string = '';
   string += SPACE.repeat(2);
-  string += linkedin;
-  string += SPACE.repeat(30 - LINKEDIN.length);  
-  string += `<a target='_blank' href='https://www.linkedin.com/in/${command.social.linkedin}'>linkedin/${command.social.linkedin}</a>`;
+  string += substack;
+  string += SPACE.repeat(30 - SUBSTACK.length);  
+  string += `<a target='_blank' href='https://substack.com/@${command.social.substack}'>substack/${command.social.substack}</a>`;
   about.push(string);
 
   string = '';
   string += SPACE.repeat(2);
-  string += substack;
-  string += SPACE.repeat(30 - SUBSTACK.length);  
-  string += `<a target='_blank' href='https://substack.com/@${command.social.substack}'>substack/@${command.social.substack}</a>`;
+  string += youtube;
+  string += SPACE.repeat(30 - YOUTUBE.length);  
+  string += `<a target='_blank' href='https://youtube.com/${command.social.youtube}'>youtube/${command.social.youtube}</a>`;
+  about.push(string);
+
+  string = '';
+  string += SPACE.repeat(2);
+  string += linkedin;
+  string += SPACE.repeat(30 - LINKEDIN.length);  
+  string += `<a target='_blank' href='https://www.linkedin.com/in/${command.social.linkedin}'>linkedin/${command.social.linkedin}</a>`;
   about.push(string);
 
   about.push("<br>");
