@@ -228,7 +228,7 @@ const createAbout = () : string[] => {
   string += SPACE.repeat(2);
   string += substack;
   string += SPACE.repeat(30 - SUBSTACK.length);  
-  string += `<a target='_blank' href='https://substack.com/@${command.social.substack}'>substack/${command.social.substack}</a>`;
+  string += `<a target='_blank' href='https://substack.com/@${command.social.substack}'>substack/@${command.social.substack}</a>`;
   about.push(string);
 
   about.push("<br>");
