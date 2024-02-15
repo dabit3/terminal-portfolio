@@ -43,7 +43,7 @@ Most of the configuration is done in the `config.json` file.
     "github": "dabit3",
     "linkedin": "naderdabit"
   },
-  "aboutGreeting": "Hi I'm Nader. I'm a full stack product engineer and developer educator.",
+  "aboutGreeting": "Hi I'm Nader. I'm a full stack product engineer specializing in high impact developer marketing.",
   "projects": [
     [
       "React Native AI",
