@@ -28,14 +28,14 @@
       "https://github.com/react-native-elements/react-native-elements"
     ],
     [
-      "Pinecone Semantic Search",
-      "Embeds files into vectors, stores on Pinecone, enables semantic search via GPT & Langchain w/Next.js.",
-      "https://github.com/dabit3/semantic-search-nextjs-pinecone-langchain-chatgpt"
+      "Fabricate",
+      "An experimental research tool for fabricating GitHub personas with AI-generated repositories.",
+      "https://github.com/dabit3/fabricate"
     ],
     [
-      "Lens Widgets",
-      "Integration widgets for Lens Protocol",
-      "https://github.com/lens-protocol/lens-widgets"
+      "OpenForm",
+      "A simple TypeForm Clone",
+      "https://github.com/dabit3/openform"
     ],
     [
       "All",
