@@ -9,6 +9,27 @@
   --prompt-default: #A5A7A7;
   --prompt-1: #FE6BC9;
   --prompt-2: #70FDFF;
+  --ascii: #FF9951;
+  --input: #FF7685;
+  --link: #B6AAEE;
+  --command: #FD9BDB;
+  --output: #FF7685;
+  --keys: #FF9951;
+}
+
+[data-theme="green"] {
+  --bg: #0a0f0a;
+  --border: #00ff41;
+  --text: #b5e8c3;
+  --prompt-default: #7a9f85;
+  --prompt-1: #00ff41;
+  --prompt-2: #39ff14;
+  --ascii: #00ff41;
+  --input: #39ff14;
+  --link: #00e676;
+  --command: #76ff03;
+  --output: #39ff14;
+  --keys: #00ff41;
 }
 
 @keyframes typing {
@@ -28,6 +49,7 @@ body {
   height: 100%;
   font-size: 16px;
   display: block;
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 html {
@@ -50,6 +72,7 @@ main {
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   scrollbar-width: none;
   -ms-overflow-style: none;
+  transition: border-color 0.4s ease;
 }
 
 main::-webkit-scrollbar {
@@ -71,8 +94,9 @@ div {
 pre {
   margin: 0;
   line-height: 15px !important;
-  color: #FF9951;
+  color: var(--ascii);
   font-family: monospace;
+  transition: color 0.4s ease;
 }
 
 input {
@@ -84,13 +108,15 @@ input {
   resize: none;
   outline: none;
   font-size: 16px;
-  color: #FF7685;
+  color: var(--input);
   caret-color: var(--prompt-default);
   width: 50%;
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 a {
-  color: #B6AAEE;
+  color: var(--link);
+  transition: color 0.4s ease, background-color 0.4s ease;
 }
 
 a:hover {
@@ -106,6 +132,11 @@ a:hover {
   width: 100%;
   top: 0;
   background-color: var(--bg);
+  transition: background-color 0.4s ease;
+}
+
+span {
+  transition: color 0.4s ease;
 }
 
 #bar-1 {
@@ -114,24 +145,28 @@ a:hover {
   color: var(--bg);
   line-height: 36px;
   padding-left: 10px;
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 #bar-2 {
   height: 4px;
   background-color: var(--border);
   margin-top: 1px;
+  transition: background-color 0.4s ease;
 }
 
 #bar-3 {
   height: 3px;
   background-color: var(--border);
   margin-top: 2px;
+  transition: background-color 0.4s ease;
 }
 
 #bar-4 {
   height: 2px;
   background-color: var(--border);
   margin-top: 3px;
+  transition: background-color 0.4s ease;
 }
 
 
@@ -139,6 +174,7 @@ a:hover {
   height: 1px;
   background-color: var(--border);
   margin-top: 4px;
+  transition: background-color 0.4s ease;
 }
 
 #terminal {
@@ -155,17 +191,20 @@ a:hover {
   text-shadow:
     0 0 7px #fff,
     0 0 151px var(--border);
-  color: #FD9BDB;
+  color: var(--command);
+  transition: color 0.4s ease, text-shadow 0.4s ease;
 }
 
 .output {
   font-weight: 400 !important;
-  color: #FF7685;
+  color: var(--output);
+  transition: color 0.4s ease;
 }
 
 .keys {
-  color: #FF9951;
+  color: var(--keys);
   font-weight: 400;
+  transition: color 0.4s ease;
 }
 
 @media (max-width: 600px) {

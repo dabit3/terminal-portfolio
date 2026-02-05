@@ -99,6 +99,10 @@ const helpObj = {
       "Clear the terminal."
     ],
     [
+      "'theme'",
+      "Toggle the color scheme."
+    ],
+    [
       "'home'",
       "Go back to nader.codes."
     ]

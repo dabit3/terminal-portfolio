@@ -18,7 +18,7 @@ const INPUT_HIDDEN = document.getElementById("input-hidden");
 const PASSWORD = document.getElementById("password-input");
 const PASSWORD_INPUT = document.getElementById("password-field") as HTMLInputElement;
 const PROMPT = document.getElementById("prompt");
-const COMMANDS = ["help", "about", "projects", "whoami", "repo", "banner", "clear"];
+const COMMANDS = ["help", "about", "projects", "whoami", "repo", "banner", "clear", "theme"];
 const REPO_LINK = com.REPO_LINK;
 const HISTORY : string[] = [];
 const SUDO_PASSWORD = "050823"
@@ -134,6 +134,28 @@ function arrowKeys(e : string) {
   }
 }
 
+const THEMES = ["default", "green"];
+let currentThemeIdx = 0;
+
+function toggleTheme() {
+  currentThemeIdx = (currentThemeIdx + 1) % THEMES.length;
+  const theme = THEMES[currentThemeIdx];
+  const root = document.documentElement;
+
+  if (theme === "default") {
+    root.removeAttribute("data-theme");
+  } else {
+    root.setAttribute("data-theme", theme);
+  }
+
+  const themeName = theme === "default" ? "cyberpunk" : theme;
+  writeLines([
+    "<br>",
+    `Theme switched to <span class='command'>${themeName}</span>.`,
+    "<br>",
+  ]);
+}
+
 function commandHandler(input : string) {
   if(input.startsWith("rm -rf") && input.trim() !== "rm -rf") {
     if (isSudo) {
@@ -226,6 +248,9 @@ function commandHandler(input : string) {
       setTimeout(() => {
         window.open('https://nader.codes');
       }, 500);
+      break;
+    case 'theme':
+      toggleTheme();
       break;
     case 'rm -rf':
       if (bareMode) {
