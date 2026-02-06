@@ -32,6 +32,36 @@
   --keys: #00ff41;
 }
 
+[data-theme="dark"] {
+  --bg: #1a1a1a;
+  --border: #666666;
+  --text: #e0e0e0;
+  --prompt-default: #888888;
+  --prompt-1: #cccccc;
+  --prompt-2: #aaaaaa;
+  --ascii: #ffffff;
+  --input: #dddddd;
+  --link: #bbbbbb;
+  --command: #ffffff;
+  --output: #cccccc;
+  --keys: #999999;
+}
+
+[data-theme="ocean"] {
+  --bg: #001220;
+  --border: #00d4ff;
+  --text: #a8e6f0;
+  --prompt-default: #5a8a9a;
+  --prompt-1: #00d4ff;
+  --prompt-2: #00a8e8;
+  --ascii: #00ffff;
+  --input: #48cae4;
+  --link: #90e0ef;
+  --command: #00d4ff;
+  --output: #48cae4;
+  --keys: #00ffff;
+}
+
 @keyframes typing {
   from {
     width: 0

@@ -134,7 +134,7 @@ function arrowKeys(e : string) {
   }
 }
 
-const THEMES = ["default", "green"];
+const THEMES = ["default", "green", "dark", "ocean"];
 let currentThemeIdx = 0;
 
 function toggleTheme() {
