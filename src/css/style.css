@@ -32,6 +32,21 @@
   --keys: #00ff41;
 }
 
+[data-theme="dark"] {
+  --bg: #0e0e0e;
+  --border: #3a3a3a;
+  --text: #c8c8c8;
+  --prompt-default: #888888;
+  --prompt-1: #e0e0e0;
+  --prompt-2: #6eb4f7;
+  --ascii: #6eb4f7;
+  --input: #e0e0e0;
+  --link: #6eb4f7;
+  --command: #e0e0e0;
+  --output: #a0a0a0;
+  --keys: #6eb4f7;
+}
+
 @keyframes typing {
   from {
     width: 0
