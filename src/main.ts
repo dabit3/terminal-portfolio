@@ -134,8 +134,14 @@ function arrowKeys(e : string) {
   }
 }
 
-const THEMES = ["default", "green"];
+const THEMES = ["default", "green", "matrix"];
 let currentThemeIdx = 0;
+
+const THEME_DISPLAY_NAMES: Record<string, string> = {
+  "default": "cyberpunk",
+  "green": "green",
+  "matrix": "matrix",
+};
 
 function toggleTheme() {
   currentThemeIdx = (currentThemeIdx + 1) % THEMES.length;
@@ -148,7 +154,7 @@ function toggleTheme() {
     root.setAttribute("data-theme", theme);
   }
 
-  const themeName = theme === "default" ? "cyberpunk" : theme;
+  const themeName = THEME_DISPLAY_NAMES[theme] || theme;
   writeLines([
     "<br>",
     `Theme switched to <span class='command'>${themeName}</span>.`,
