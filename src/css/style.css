@@ -32,6 +32,21 @@
   --keys: #00ff41;
 }
 
+[data-theme="matrix"] {
+  --bg: #000000;
+  --border: #003B00;
+  --text: #00FF41;
+  --prompt-default: #008F11;
+  --prompt-1: #00FF41;
+  --prompt-2: #20C20E;
+  --ascii: #00FF41;
+  --input: #00FF41;
+  --link: #20C20E;
+  --command: #00FF41;
+  --output: #33FF33;
+  --keys: #20C20E;
+}
+
 @keyframes typing {
   from {
     width: 0
